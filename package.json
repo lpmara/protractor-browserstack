@@ -1,0 +1,17 @@
+{
+  "name": "e2e-gatsby-test",
+  "version": "1.0.0",
+  "description": "npm install -g selenium-webdriver",
+  "main": "e2e.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "./node_modules/.bin/protractor conf/local.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "browserstack-local": "^1.0.0",
+    "protractor": "^5.4.2"
+  }
+}
